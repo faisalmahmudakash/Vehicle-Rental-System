@@ -69,7 +69,7 @@ users       ──< bookings >── vehicles
 
 ## 🔍 SQL Queries Explained
 
-### Query 1 — JOIN
+### Query 1 - JOIN
 **Goal:** Retrieve all bookings with the customer's name and vehicle name.
 
 ```sql
@@ -97,7 +97,7 @@ select
 
 ---
 
-### Query 2 — NOT EXISTS
+### Query 2 - NOT EXISTS
 **Goal:** Find all vehicles that have never been booked.
 
 ```sql
@@ -123,7 +123,7 @@ select
 
 ---
 
-### Query 3 — WHERE
+### Query 3 - WHERE
 **Goal:** Retrieve all available vehicles of type `car`.
 
 ```sql
@@ -150,7 +150,7 @@ select
 
 ---
 
-### Query 4 — GROUP BY and HAVING
+### Query 4 - GROUP BY and HAVING
 **Goal:** Find vehicles with more than 2 bookings.
 
 ```sql
