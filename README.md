@@ -54,10 +54,13 @@ Links users to vehicles for a rental period.
 | total_cost     | NUMERIC(10,2) |                                                        |
 
 ---
+
+```
 ## 🔗 Entity Relationships
 
 users       ──< bookings >── vehicles
 (1)              (many)         (1)
+```
 ```
 
 ```
