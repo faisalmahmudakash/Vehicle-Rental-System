@@ -54,29 +54,26 @@ Links users to vehicles for a rental period.
 | total_cost     | NUMERIC(10,2) |                                                        |
 
 ---
-
 ## 🔗 Entity Relationships
 
 users       ──< bookings >── vehicles
 (1)              (many)         (1)
 ```
 
+```
 | Relationship | Description |
 |---|---|
 | **One-to-Many** | One `user` can have many `bookings` |
 | **Many-to-One** | Many `bookings` belong to one `vehicle` |
 | **Logical One-to-One** | Each booking links exactly one user to one vehicle |
-
-
-
 ---
 
 ## 🔍 SQL Queries Explained
 
+```
+```
 ### Query 1 — JOIN
 **Goal:** Retrieve all bookings with the customer's name and vehicle name.
-
-```sql
 select 
     booking_id, 
     user_name as customer_name, 
