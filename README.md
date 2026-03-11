@@ -6,7 +6,7 @@ A relational database solution for managing users, vehicles, and bookings in a v
 
 vehicle-rental-system/
 ├── README.md        # Project documentation 
-└── queries.sql      # All SQL queries with solutions  
+├── queries.sql      # All SQL queries with solutions  
 ```
 ## 🗄️ Database Schema
 
