@@ -61,9 +61,7 @@ Links users to vehicles for a rental period.
 users       ──< bookings >── vehicles
 (1)              (many)         (1)
 ```
-```
 
-```
 | Relationship | Description |
 |---|---|
 | **One-to-Many** | One `user` can have many `bookings` |
