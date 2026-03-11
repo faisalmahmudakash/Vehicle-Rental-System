@@ -5,12 +5,9 @@ A relational database solution for managing users, vehicles, and bookings in a v
 ## 📁 Repository Structure
 
 vehicle-rental-system/
-├── queries.sql      # All SQL queries with solutions
-└── README.md        # Project documentation 
+├── README.md        # Project documentation 
+└── queries.sql      # All SQL queries with solutions  
 ```
-
----
-
 ## 🗄️ Database Schema
 
 ### `users`
@@ -59,7 +56,6 @@ Links users to vehicles for a rental period.
 
 ## 🔗 Entity Relationships
 
-```
 users       ──< bookings >── vehicles
 (1)              (many)         (1)
 ```
