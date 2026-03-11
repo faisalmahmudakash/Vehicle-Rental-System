@@ -182,7 +182,7 @@ select
    ```
 2. Connect and run the schema (create tables first using the schema above).
 3. Insert sample data.
-4. Run the queries from `[queries.sql](https://github.com/faisalmahmudakash/Vehicle-Rental-System/blob/main/queries.sql)`.
+4. Run the queries from [queries.sql](https://raw.githubusercontent.com/faisalmahmudakash/vehicle-rental-system/main/queries.sql).
 
 ---
 
