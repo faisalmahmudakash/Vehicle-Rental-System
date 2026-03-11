@@ -192,7 +192,7 @@ select
 |---|---|
 | 📊 ERD Diagram | [Lucidchart ERD](https://lucid.app/lucidchart/e2601577-20b0-4fde-b8b3-43079250aa51/edit?viewport_loc=17%2C-73%2C2175%2C1041%2C0_0&invitationId=inv_9c49a74b-dccc-4ae2-9098-50953a266826)  |
 | 💻 GitHub Repository | [GitHub Repo](https://github.com/faisalmahmudakash/Vehicle-Rental-System.git)|
-| 🎥 Viva Video | [Google Drive](#) |
+| 🎥 Viva Video | [Google Drive](https://drive.google.com/file/d/1s1i4mzJk2wpW6cEBn4rbiTlGCP5eLAck/view?usp=sharing) |
 
 ---
 
