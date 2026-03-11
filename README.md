@@ -70,8 +70,7 @@ users       ──< bookings >── vehicles
 
 ## 🔍 SQL Queries Explained
 
-```
-```
+```sql
 ### Query 1 — JOIN
 **Goal:** Retrieve all bookings with the customer's name and vehicle name.
 select 
