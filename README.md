@@ -27,14 +27,14 @@ Stores registered users of the platform.
 ### `vehicles`
 Stores all vehicles available for rental.
 
-| Column               | Type           | Constraints                          |
-|----------------------|----------------|--------------------------------------|
-| vehicle_id           | SERIAL         | PRIMARY KEY                          |
-| vehicle_name         | VARCHAR(100)   | NOT NULL                             |
-| vehicle_type         | VARCHAR(20)    | CHECK: car \| bike \| truck          |
-| model                | VARCHAR(100)   |                                      |
-| registration_number  | VARCHAR(50)    | NOT NULL, UNIQUE                     |
-| rental_price         | NUMERIC(10,2)  | NOT NULL                             |
+| Column               | Type           | Constraints                               |
+|----------------------|----------------|-------------------------------------------|
+| vehicle_id           | SERIAL         | PRIMARY KEY                               |
+| vehicle_name         | VARCHAR(100)   | NOT NULL                                  |
+| vehicle_type         | VARCHAR(20)    | CHECK: car \| bike \| truck               |    
+| model                | VARCHAR(100)   |                                           |
+| registration_number  | VARCHAR(50)    | NOT NULL, UNIQUE                          |
+| rental_price         | NUMERIC(10,2)  | NOT NULL                                  |
 | availability_status  | VARCHAR(20)    | CHECK: available \| rented \| maintenance |
 
 ---
@@ -42,15 +42,15 @@ Stores all vehicles available for rental.
 ### `bookings`
 Links users to vehicles for a rental period.
 
-| Column         | Type          | Constraints                                    |
-|----------------|---------------|------------------------------------------------|
-| booking_id     | SERIAL        | PRIMARY KEY                                    |
-| user_id        | INT           | FOREIGN KEY → users(user_id)                   |
-| vehicle_id     | INT           | FOREIGN KEY → vehicles(vehicle_id)             |
-| start_date     | DATE          | NOT NULL                                       |
-| end_date       | DATE          | NOT NULL                                       |
-| booking_status | VARCHAR(20)   | CHECK: pending \| confirmed \| completed \| cancelled |
-| total_cost     | NUMERIC(10,2) |                                                |
+| Column         | Type          | Constraints                                            |
+|----------------|---------------|--------------------------------------------------------|
+| booking_id     | SERIAL        | PRIMARY KEY                                            |
+| user_id        | INT           | FOREIGN KEY → users(user_id)                           |
+| vehicle_id     | INT           | FOREIGN KEY → vehicles(vehicle_id)                     |
+| start_date     | DATE          | NOT NULL                                               |
+| end_date       | DATE          | NOT NULL                                               |
+| booking_status | VARCHAR(20)   | CHECK: pending \| confirmed \| completed \| cancelled  |
+| total_cost     | NUMERIC(10,2) |                                                        |
 
 ---
 
